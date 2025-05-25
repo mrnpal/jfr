@@ -18,7 +18,7 @@ function Services() {
           <p>Tingkatkan daya tarik produk Anda dengan hasil foto yang tajam dan estetik.</p>
         </div>
         <div className="service-card">
-          <img src="/images/4.jpeg" alt="Product Photography" />
+          <img src="/images/2.jpeg" alt="Product Photography" />
           <h3>Fotografi Prewedding</h3>
           <p>Tingkatkan daya tarik produk Anda dengan hasil foto yang tajam dan estetik.</p>
         </div>

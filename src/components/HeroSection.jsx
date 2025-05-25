@@ -7,7 +7,7 @@ function HeroSection() {
       <div className="hero-content">
         <h1>Jasa Fotografi Profesional</h1>
         <p>
-          Tangkap momen spesial Anda dengan sentuhan visual yang berkelas. Kami hadir untuk kebutuhan fotografi pernikahan, produk, hingga personal branding.
+          Abadikan momen spesial Anda dengan sentuhan visual yang berkelas. Kami hadir untuk kebutuhan fotografi pernikahan, prewedding, hingga personal branding.
         </p>
         <button className="cta-button">Hubungi Kami</button>
       </div>

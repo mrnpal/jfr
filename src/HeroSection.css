@@ -58,11 +58,13 @@
 
 .hero-image {
   width: 100%;
-  max-width: 550px;
+  height: auto;
+  max-width: 100%; /* override max-width 550px di HP */
   border-radius: 16px;
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
+
 
 /* Animation */
 @keyframes fadeInUp {
@@ -84,6 +86,7 @@
 
   .hero-content h1 {
     font-size: 2.2rem;
+    
   }
 
   .hero-content p {
@@ -100,19 +103,18 @@
 
   .hero-content {
     padding: 40px 30px;
+    text-align: justify; /* Tambahkan ini agar rata kiri di mobile */
   }
 
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-
+  .hero-content h1,
   .hero-content p {
-    font-size: 1rem;
+    text-align: justify; /* Pastikan judul & paragraf juga rata kiri */
   }
 
-  .cta-button {
-    width: 100%;
-    max-width: 300px;
+  .hero-content .cta-button {
+    width: auto;      /* Supaya tombol tidak full width */
+    display: inline-block;
+    text-align: justify;
   }
 
   .hero-image {
