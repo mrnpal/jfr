@@ -14,7 +14,7 @@ const Gallery = () => {
   const [modalImg, setModalImg] = useState(null);
 
   return (
-    <section className="gallery-section">
+    <section className="gallery-section" id='gallery'>
       <h2 className='p'>Galeri</h2>
       <p className="gallery-description">Beberapa hasil terbaik dari sesi foto kami.</p>
       <div className="gallery-grid">

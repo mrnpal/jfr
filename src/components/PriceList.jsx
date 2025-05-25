@@ -86,7 +86,7 @@ export default function PriceList() {
   const [selected, setSelected] = useState('wedding');
 
   return (
-    <div className="price-section">
+    <div className="price-section" id="priceList">
       <h2 className="price-title">Paket Harga</h2>
       <div className="price-tabs">
         {Object.keys(priceData).map((key) => (
