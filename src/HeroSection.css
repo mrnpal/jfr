@@ -103,12 +103,12 @@
 
   .hero-content {
     padding: 40px 30px;
-    text-align: justify; /* Tambahkan ini agar rata kiri di mobile */
+    text-align: left; /* Tambahkan ini agar rata kiri di mobile */
   }
 
   .hero-content h1,
   .hero-content p {
-    text-align: justify; /* Pastikan judul & paragraf juga rata kiri */
+    text-align: left; /* Pastikan judul & paragraf juga rata kiri */
   }
 
   .hero-content .cta-button {

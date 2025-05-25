@@ -12,9 +12,9 @@ function Navbar() {
 
       <div className={`nav-links ${isOpen ? 'active' : ''}`}>
         <a href="#home" onClick={() => setIsOpen(false)}>Beranda</a>
-        <a href="#about" onClick={() => setIsOpen(false)}>Tentang</a>
         <a href="#services" onClick={() => setIsOpen(false)}>Layanan</a>
-        <a href="#contact" onClick={() => setIsOpen(false)}>Kontak</a>
+        <a href="#gallery" onClick={() => setIsOpen(false)}>Galeri</a>
+        <a href="#contact" onClick={() => setIsOpen(false)}>Price List</a>
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>
