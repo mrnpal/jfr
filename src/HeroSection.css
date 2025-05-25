@@ -24,6 +24,9 @@
   font-size: 2.5rem;
   color: #333;
   margin-bottom: 20px;
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
 }
 
 .hero-content p {
@@ -31,6 +34,9 @@
   color: #555;
   margin-bottom: 25px;
   line-height: 1.6;
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+  animation-delay: 0.8s;
 }
 
 .cta-button {
@@ -42,10 +48,9 @@
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #555;
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+  animation-delay: 1.3s;
 }
 
 .hero-image-container {
@@ -135,4 +140,10 @@
   .cta-button {
     font-size: 0.95rem;
   }
+}
+
+.hero-content h1,
+.hero-content p,
+.cta-button {
+  animation-fill-mode: both;
 }
