@@ -9,7 +9,19 @@ function HeroSection() {
         <p>
           Abadikan momen spesial Anda dengan sentuhan visual yang berkelas. Kami hadir untuk kebutuhan fotografi pernikahan, prewedding, hingga personal branding.
         </p>
-        <button className="cta-button">Hubungi Kami</button>
+        <button
+              className="cta-button"
+              onClick={() =>
+                window.open(
+                  `https://wa.me/6285258821015?text=${encodeURIComponent(
+                    `Halo, Saya ingin konsultasi dulu sebelum booking. Apakah bisa?`
+                  )}`,
+                  '_blank'
+                )
+              }
+            >
+              Pesan Sekarang
+            </button>
       </div>
       <div className="hero-image-container">
         <img src={heroImage} alt="Fotografi" className="hero-image" />
