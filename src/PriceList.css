@@ -19,6 +19,7 @@
 }
 
 .price-tabs button {
+  width: 10%;
   background: #6666666b;
   border: 1px #333;
   padding: 10px 20px;
@@ -110,5 +111,11 @@
     grid-template-columns: 1fr 1fr;
     gap: 12px;
     justify-items: center;
+    width: 100%;
+  }
+  .price-tabs button {
+    width: 100%;      /* <-- Tambahkan ini agar semua tombol sama lebar */
+    box-sizing: border-box;
+    text-align: center;
   }
 }
