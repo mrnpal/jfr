@@ -52,7 +52,7 @@ p {
 .hero-content {
   background-color: rgba(169, 168, 168, 0.5);
   color: #fff;
-  padding: 40px 60px;
+  /* padding: 40px 60px; */
   border-radius: 12px;
   text-align: center;
 }
