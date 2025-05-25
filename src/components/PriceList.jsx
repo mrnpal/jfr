@@ -114,7 +114,7 @@ export default function PriceList() {
               className="order-btn"
               onClick={() =>
                 window.open(
-                  `https://wa.me/6281234567890?text=${encodeURIComponent(
+                  `https://wa.me/6285258821015?text=${encodeURIComponent(
                     `Halo, saya ingin memesan paket ${item.title}. Apakah masih tersedia?`
                   )}`,
                   '_blank'
