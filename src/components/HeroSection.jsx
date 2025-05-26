@@ -3,7 +3,7 @@ import heroImage from '../assets/hero.jpeg'; // sesuaikan path gambar
 
 function HeroSection() {
   return (
-    <section className="hero">
+    <section className="hero" id='home'>
       <div className="hero-content">
         <h1>Jasa Fotografi Profesional</h1>
         <p>
