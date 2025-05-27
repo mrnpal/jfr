@@ -5,7 +5,6 @@ const galleryData = {
   prewedding: [
     '/images/p1.jpeg',
     '/images/1.jpeg',
-    '/images/3.jpeg',
     '/images/p2.jpeg',
     '/images/p3.jpeg',
     '/images/p4.jpeg',
