@@ -70,6 +70,23 @@
   object-fit: cover;
 }
 
+/* Tambahkan di HeroSection.css */
+.hero-social {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.hero-social a {
+  color: #333;
+  transition: color 0.2s;
+}
+
+.hero-social a:hover {
+  color: #e1306c; /* warna IG, atau sesuaikan */
+}
 
 /* Animation */
 @keyframes fadeInUp {
@@ -125,6 +142,9 @@
   .hero-image {
     max-width: 100%;
     margin-top: 30px;
+  }
+   .hero-social a {
+    color: #fff; /* putih di mobile */
   }
 }
 
