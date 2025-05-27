@@ -77,6 +77,10 @@
   align-items: center;
   justify-content: center;
   gap: 16px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+  animation-delay: 1.6s; /* muncul setelah tombol */
 }
 
 .hero-social a {
@@ -85,7 +89,7 @@
 }
 
 .hero-social a:hover {
-  color: #e1306c; /* warna IG, atau sesuaikan */
+  color: #e1306c;
 }
 
 /* Animation */
@@ -145,6 +149,13 @@
   }
    .hero-social a {
     color: #fff; /* putih di mobile */
+  }
+  .hero-social {
+    /* tetap gunakan animasi di mobile */
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: 1.6s;
   }
 }
 
